@@ -24,7 +24,7 @@ const [state, setState] = useState({ value: "square" });
         {data.map((element, idx) => {
           return (
             <>
-              <p className={element.value}>{element.value , idx } </p>
+              <div className={element.value}>{element.value , idx } </div>
             </>
           );
         })}
